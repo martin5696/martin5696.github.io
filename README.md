@@ -1,62 +1,26 @@
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
+## 警告   
+**请勿**将本网页用作给妹子庆生/纪念日/表白等用途，除非妹子是学编程的。   
+**血的教训**。去年妹子生日的时候给她发了这个链接，两个月之后问起来她告诉我根本没看见右边那个蛋糕。**呵呵~~**
+Anyway that's life.
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+##About the Birthday Web Page
+2013年七夕翌日的前一天（好吧……）突然看到微博上[@羽川汐](http://weibo.cn/319880777) 发的一个网页很有意思～   
+当时我和我的小伙伴就惊呆了啊！这这！做一个给某人庆生多好！(虽然做这玩意就免不了 *注孤生* 的命运)   
+于是在生气的RPi上找到了原Repo又fork下来   
+本来想写个程序帮我找生日蛋糕的轨迹来的结果因为算法太渣(捂脸)失败了……   
+只好退而求其次搞了个awt application记录鼠标轨迹……然后就生成了 *6200多* 个坐标……(但我也画出来生日蛋糕了不是？有需要的可以[联系我](http://weibo.cn/xavieryao))   
+试了多个Size之后又在本地精简+处理了一下坐标……虽然处理完在IE 11上CPU占用率上升到40%了……不过在iOS上是一如既往的慢……好吧   
 
-## Preview
+##注意
 
-[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+1. 虽然我把绘图速度调的很快但是只有IE 11,FF之类的 *现代* **桌面**浏览器才能在占用很多资源的情况下跑到满速   
+2. 左边的Java代码有语法错误……英文注释也有……请无视   
+3. 时间仓促js代码没有压缩，请自行处理   
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
+##本项目派生(fork)于[hackerzhou/Love](https://github.com/hackerzhou/Love)   
 
-## Status
+####以下是原repo的readme
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
-* Install via npm: `npm i startbootstrap-freelancer`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+> 这是一个很小的静态页面，用来庆祝我跟我mm相恋一周年纪念日。同时也为了以程序员的视角来表达浪漫，改变大家对于程序员先入为主的形象，程序员改变世界~
+> 时间仓促，有很多没有考虑到的地方，大家可以自由的进行二次开发。
+> 项目主页：http://love.hackerzhou.me
