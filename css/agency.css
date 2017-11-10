@@ -72,8 +72,7 @@ section {
   text-shadow: none; }
 
 img::selection {
-  background: transparent; 
-  padding-bottom: 50px; }
+  background: transparent; }
 
 img::-moz-selection {
   background: transparent; }
@@ -150,6 +149,7 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
+	  margin-top: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
